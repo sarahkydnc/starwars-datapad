@@ -1,0 +1,14 @@
+body {
+  font-family: var(--body-font);
+}
+
+#find-subject-form .form-control {
+  background-color: #16171e;
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+#find-subject-form .btn {
+  background-color: var(--main-color);
+  color: #16171e;
+}
