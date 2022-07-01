@@ -15,19 +15,23 @@
   --text-color: #ffffff;
 }
 
-body {
+.App {
   background-color: #62616c;
 }
 
-.App :is(h1, h3) {
+.container {
+  background-color: #16171e;
+}
+
+.container :is(h1, h3) {
   text-align: center;
   font-family: var(--title-font);
 }
 
-.App h1 {
+.container h1 {
   color: var(--highlight-color);
 }
 
-.App h3 {
+.container h3 {
   color: var(--text-color);
 }
