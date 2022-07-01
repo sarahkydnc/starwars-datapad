@@ -22,8 +22,9 @@ body {
 
 .container {
   background-color: #16171e;
-  border: 10px solid;
+  border: 5px solid;
   border-color: var(--main-color);
+  box-shadow: 0 0 5px 5px var(--main-color);
 }
 
 .container :is(h1, h3) {

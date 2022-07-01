@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App mt-5">
-      <div className="container py-5 shadow">
+      <div className="container py-5">
         <h1>
           Bright Suns / Rising Moons,
           <br />
