@@ -1,4 +1,6 @@
 import React from "react";
+import Result from "./Result";
+
 import "./Datapad.css";
 
 function Datapad() {
@@ -14,12 +16,18 @@ function Datapad() {
             aria-describedby="button-addon2"
           />
           <div className="input-group-append">
-            <button className="btn" type="button" id="button-addon2">
-              Button
+            <button
+              className="btn text-uppercase"
+              type="button"
+              id="button-addon2"
+            >
+              punch it, chewie!
             </button>
           </div>
         </div>
       </form>
+
+      <Result />
     </div>
   );
 }
