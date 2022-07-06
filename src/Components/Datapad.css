@@ -20,3 +20,7 @@ body {
   border-color: var(--main-color);
   border-radius: 2px;
 }
+
+#find-subject-form .search-bar {
+  width: 400px;
+}
