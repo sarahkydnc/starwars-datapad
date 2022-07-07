@@ -5,6 +5,8 @@ body {
 .input-group {
   border-radius: 2px;
   box-shadow: 0 0 2px 2px var(--main-color);
+  display: flex;
+  justify-content: center;
 }
 
 #find-subject-form .form-control {
@@ -19,4 +21,8 @@ body {
   color: #16171e;
   border-color: var(--main-color);
   border-radius: 2px;
+}
+
+#find-subject-form .search-bar {
+  width: 400px;
 }
