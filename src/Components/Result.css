@@ -1,5 +1,9 @@
 body {
   font-family: var(--body-font);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .input-group {

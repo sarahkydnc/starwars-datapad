@@ -1,20 +1,14 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 // Reason for SearchBar being inside CategorySection:
 // Easier to grab props for dynamic text change when user clicks on CategoryButton(s)
 
-export default function SearchBar(props) {
+export default function SearchBar() {
     let [searchText, setSearchText] = useState('')
     
     function handleChange(e) {
         setSearchText(e.target.value)
-        console.log(searchText)
     }
-
-    useEffect(()=>{
-        setSearchText(props.itemToShow)
-    }, [props.itemToShow])
-
 
     return(
         <div> 

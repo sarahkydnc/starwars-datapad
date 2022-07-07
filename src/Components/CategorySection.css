@@ -1,4 +1,15 @@
 .button {
-  background-color: blue;
   color: white;
+}
+
+.button-container{
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* background-color: blue; */
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
 }

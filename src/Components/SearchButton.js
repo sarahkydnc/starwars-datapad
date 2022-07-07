@@ -1,6 +1,6 @@
-export default function SearchButton(props) {
+export default function SearchButton() {
   
   return (
-    <button className="btn" onClick={props.searchClickHandler}> PUNCH IT, CHEWIE! </button>
+    <button className="btn" type='submit'> PUNCH IT, CHEWIE! </button>
   )
 }
